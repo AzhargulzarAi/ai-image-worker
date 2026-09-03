@@ -1,12 +1,15 @@
 {
   "name": "ai-image-worker",
-  "version": "1.0.0",
-  "description": "AI image worker for joinveritas.co.uk",
+  "version": "1.1.0",
+  "description": "AI image worker for automated WordPress page and post images",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "sharp": "^0.34.3"
   }
 }
